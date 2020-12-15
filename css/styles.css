@@ -50,6 +50,8 @@ h2 {
 #left-top {
   background-color: #dddddd;
   height: 10vh;
+  display: flex;
+  align-items: center;
 }
 
 #left-bottom {
@@ -66,9 +68,11 @@ h2 {
 #right-top {
   background-color: #dddddd;
   border-left-style: solid;
-  border-left-width: 0.25vh;
+  border-left-width: 0.5vh;
   border-left-color: #cccccc;
   height: 10vh;
+  display: flex;
+  align-items: center;
 }
 
 #chat {
@@ -89,4 +93,12 @@ h2 {
   height: 5vh;
   padding-left: 1%;
   padding-right: 70%;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 {
+  margin: 2vh;
+  font-size: 48px; 
 }
