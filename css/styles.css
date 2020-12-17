@@ -23,11 +23,11 @@ h2 {
   background-color: #1e9e3b;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 2vh 4vh;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: arial;
+  font-family: monospace;
   font-size: 16px;
   margin: auto;
   cursor: pointer;
@@ -38,7 +38,7 @@ h2 {
 }
 
 #front {
-  margin: 5%;
+  margin: 10vh;
 }
 
 #left {
