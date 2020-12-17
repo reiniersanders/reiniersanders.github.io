@@ -1,25 +1,31 @@
 body {
-  margin: 0%;
+	margin: 0%;
 }
 
 h1 {
-  font-family: monospace;
-  font-size: 64px;
-  text-align: center;
+	font-family: monospace;
+	font-size: 64px;
+	text-align: center;
 }
 
 p {
-  font-family: monospace;
-  font-size: 16px;
+	font-family: monospace;
+	font-size: 16px;
 }
 
 h2 {
-  font-family: monospace;
-  font-size: 12px;
-  color: #777777;
+	font-family: monospace;
+	font-size: 12px;
+	color: #777777;
+}
+
+h3 {
+	font-family: monospace;
+	font-size: 24px;
 }
 
 .button {
+<<<<<<< Updated upstream
   background-color: #1e9e3b;
   border: none;
   color: white;
@@ -31,82 +37,104 @@ h2 {
   font-size: 16px;
   margin: auto;
   cursor: pointer;
+=======
+	background-color: #1e9e3b;
+	border: none;
+	color: white;
+	padding: 2vh 4vh;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 16px;
+	margin: auto;
+	cursor: pointer;
+>>>>>>> Stashed changes
 }
 
 .button:hover {
-  background-color: #115c22;
+	background-color: #115c22;
 }
 
 #front {
+<<<<<<< Updated upstream
   margin: 5%;
+=======
+	margin: 10vh;
+>>>>>>> Stashed changes
 }
 
 #left {
-  float: left;
-  width: 33%;
-  height: 100vh;
+	float: left;
+	width: 33%;
+	height: 100vh;
 }
 
 #left-top {
-  background-color: #dddddd;
-  height: 10vh;
-  display: flex;
-  align-items: center;
+	background-color: #dddddd;
+	height: 10vh;
+	display: flex;
+	align-items: center;
 }
 
 #left-bottom {
-  background-color: #eeeeee;
-  height: 90vh;
+	background-color: #eeeeee;
+	height: 90vh;
 }
 
 #right {
-  overflow: hidden;
-  width: auto;
-  height: 100vh;
+	overflow: hidden;
+	width: auto;
+	height: 100vh;
 }
 
 #right-top {
-  background-color: #dddddd;
-  border-left-style: solid;
-  border-left-width: 0.5vh;
-  border-left-color: #cccccc;
-  height: 10%;
-  display: flex;
-  align-items: center;
+	background-color: #dddddd;
+	border-left-style: solid;
+	border-left-width: 0.5vh;
+	border-left-color: #cccccc;
+	height: 10%;
+	display: flex;
+	align-items: center;
 }
 
 #chat {
-  background-image: url("../images/experiment-background.jpg");
-  height: 77.7%;
-  padding: 10px;
+	background-image: url("../images/experiment-background.jpg");
+	height: 77.7%;
+	padding: 10px;
 }
 
 #right-bottom {
-  background-color: #dddddd;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	background-color: #dddddd;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #messagebox {
-  background-color: white;
-  height: auto;
-  padding-left: 1%;
-  padding-right: 70%;
+	background-color: white;
+	height: auto;
+	padding-left: 1%;
+	padding-right: 70%;
 }
 
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 {
-  margin: 2vh;
-  font-size: 48px; 
+	margin: 2vh;
+	font-size: 48px; 
 }
 
 #message {
-  background-color: white;
-  padding: 2vh;
-  width: 40%;
-  margin-bottom: 10px;
+	background-color: white;
+	padding: 2vh;
+	width: 40%;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+#timer {
+	padding: 2vh;
 }

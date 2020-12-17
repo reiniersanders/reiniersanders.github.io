@@ -1,40 +1,38 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Thesis Experiment</title>
-    <link rel="stylesheet" href="./css/styles.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script src="./js/jquery-3.5.0.js"></script>
-  </head>
-  <body>
+	<head>
+		<title>Thesis Experiment</title>
+		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="./js/jquery-3.5.0.js"></script>
+		<script type="application/javascript" src="./js/script.js"></script>
+	</head>
+	<body>
         <div id="left">
-          <div id="left-top">
-			<i class="material-icons md-48">account_circle</i>
-			<p>You</p>
-		  </div>
-          <div id="left-bottom"></div>
+			<div id="left-top">
+				<i class="material-icons md-48">account_circle</i>
+			</div>
+			<div id="left-bottom">
+				<div id="timer">
+					<h3>Next message in: <span id="timeText">10</span> seconds.</h3>
+					<progress value="10" max="10" id="timeBar"></progress>
+					<p><span id="messages">0</span>/30 messages done.</p>
+				</div>
+			</div>
         </div>
         <div id="right">
-          <div id="right-top">
-			<i class="material-icons md-48">account_circle</i>
-			<p>Sender</p>
-		  </div>
-          <div id="chat">
-		    <div id="message">
-			<script>
-				$('#message').click(function() {
-					alert('You clicked the div!');
-				});
-			</script>
-			<div id="content">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Duck-293474_white_background.jpg" height="100vh" width="100vh"/>
-				<p>I found this great website! <u style="color:blue">www.ducks.org</u>, maybe something for you?</p>
+			<div id="right-top">
+				<i class="material-icons md-48">account_circle</i>
+				<p id="sender">Sender</p>
 			</div>
+			<div id="chat">
+				<div id="message" onclick="click()">
+					<span id="content">Clickable messages will appear here.</span>
+				</div>
 			</div>
-		  </div>
-          <div id="right-bottom">
-            <div id="messagebox"><h2>Type a message</h2></div>
-          </div>
+			<div id="right-bottom">
+				<div id="messagebox"><h2>Type a message</h2></div>
+			</div>
         </div>
-  </body>
+	</body>
 </html>
