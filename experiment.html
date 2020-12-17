@@ -4,6 +4,7 @@
     <title>Thesis Experiment</title>
     <link rel="stylesheet" href="./css/styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="./js/jquery-3.5.0.js"></script>
   </head>
   <body>
         <div id="left">
@@ -20,12 +21,15 @@
 		  </div>
           <div id="chat">
 		    <div id="message">
+			<script>
+				$('#message').click(function() {
+					alert('You clicked the div!');
+				});
+			</script>
+			<div id="content">
 				<img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Duck-293474_white_background.jpg" height="100vh" width="100vh"/>
 				<p>I found this great website! <u style="color:blue">www.ducks.org</u>, maybe something for you?</p>
 			</div>
-			<div id="message">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Duck-293474_white_background.jpg" height="100vh" width="100vh"/>
-				<p>I found this great website! <u style="color:blue">www.not-ducks.org</u>, maybe something for you?</p>
 			</div>
 		  </div>
           <div id="right-bottom">
