@@ -8,20 +8,15 @@ h1 {
 	text-align: center;
 }
 
-p {
-	font-family: monospace;
-	font-size: 16px;
-}
-
 h2 {
 	font-family: monospace;
 	font-size: 12px;
 	color: #777777;
 }
 
-h3 {
+p {
 	font-family: monospace;
-	font-size: 24px;
+	font-size: 16px;
 }
 
 .button {
@@ -42,66 +37,93 @@ h3 {
 	background-color: #115c22;
 }
 
-#front {
-	margin: 10vh;
+.front-container {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 5vh;
 }
 
-#container {
-	overflow: hidden;
-	width: auto;
-	height: 100vh;
+.experiment-container {
+	display: grid;
+	grid-template-columns: 100vw;
+	grid-template-rows: 10vh 80vh 10vh;
+	gap: 0px 0px;
+	grid-template-areas:
+		"top"
+		"middle"
+		"bottom";
 }
 
-#top {
+.top {
+	grid-area: top;
 	background-color: #dddddd;
-	border-left-style: solid;
-	border-left-width: 0.5vh;
-	border-left-color: #cccccc;
-	height: 10%;
 	display: flex;
 	align-items: center;
 }
 
-#middle {
+.middle {
+	grid-area: middle;
+	padding: 1%;
 	position: relative;
 	background-image: url("../images/experiment-background.jpg");
-	height: 77.7%;
-	padding: 10px;
 }
 
-#bottom {
+.bottom {
+	grid-area: bottom;
 	background-color: #dddddd;
-	height: 10%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-#messagebox {
+.messagebox {
 	background-color: white;
-	height: auto;
-	padding-left: 1%;
-	padding-right: 70%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	padding-left: 2vw;
+	padding-right: 70vw;
 }
 
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 {
-	margin: 2vh;
-	font-size: 48px; 
+	font-size: 48px;
+	margin-left: 1vw;
+	margin-right: 1vw;
 }
 
-#message {
+#content {
 	background-color: white;
-	padding: 2vh;
-	width: 40%;
-	margin-bottom: 10px;
+	padding: 1%;
+	display: inline-block;
 	cursor: pointer;
 }
 
-#messages {
+#done {
 	position: absolute;
 	bottom: 0;
-	right: 2vh;
+	right: 2vw;
+}
+
+#button {
+	background-color: #1e9e3b;
+	border: none;
+	color: white;
+	padding: 2vh 4vh;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 16px;
+	margin: 1%;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#button:hover {
+	background-color: #115c22;
 }
