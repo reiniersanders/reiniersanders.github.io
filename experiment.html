@@ -4,33 +4,28 @@
 		<title>Thesis Experiment</title>
 		<link rel="stylesheet" href="./css/styles.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<script src="./js/jquery-3.5.0.js"></script>
-		<script type="application/javascript" src="./js/script.js"></script>
+		<script src="./js/jquery-3.5.0.min.js"></script> 
+		<script>
+			var clicked = 0;
+			function click() {
+				clicked++;
+				alert('you have clicked ' + clicked + ' messages so far');
+			}
+		</script>
 	</head>
 	<body>
-        <div id="left">
-			<div id="left-top">
+        <div id="container">
+			<div id="top">
 				<i class="material-icons md-48">account_circle</i>
+				<p id="sender">Description of the sender will appear here.</p>
 			</div>
-			<div id="left-bottom">
-				<div id="timer">
-					<h3>Next message in: <span id="timeText">10</span> seconds.</h3>
-					<progress value="10" max="10" id="timeBar"></progress>
-					<p><span id="messages">0</span>/30 messages done.</p>
-				</div>
-			</div>
-        </div>
-        <div id="right">
-			<div id="right-top">
-				<i class="material-icons md-48">account_circle</i>
-				<p id="sender">Sender</p>
-			</div>
-			<div id="chat">
+			<div id="middle">
 				<div id="message" onclick="click()">
-					<span id="content">Clickable messages will appear here.</span>
+					<p><span id="content">Clickable messages will appear here.</span></p>
 				</div>
+				<p id="messages"><span id="done">0</span>/30 messages done.</p>
 			</div>
-			<div id="right-bottom">
+			<div id="bottom">
 				<div id="messagebox"><h2>Type a message</h2></div>
 			</div>
         </div>
