@@ -98,6 +98,7 @@ p {
 	background-color: white;
 	padding: 1%;
 	display: inline-block;
+	max-width: 40%;
 	cursor: pointer;
 }
 
@@ -107,7 +108,7 @@ p {
 	right: 2vw;
 }
 
-#button {
+#expbutton {
 	background-color: #1e9e3b;
 	border: none;
 	color: white;

@@ -1,7 +1,7 @@
 window.onload = function () {
 
 	var content = document.getElementById('content');
-	var button = document.getElementById('button');
+	var button = document.getElementById('expbutton');
 	var counter = document.getElementById('counter');
 	
 	var start = true;
