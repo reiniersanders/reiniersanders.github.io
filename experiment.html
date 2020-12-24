@@ -4,29 +4,25 @@
 		<title>Thesis Experiment</title>
 		<link rel="stylesheet" href="./css/styles.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<script src="./js/jquery-3.5.0.min.js"></script> 
-		<script>
-			var clicked = 0;
-			function click() {
-				clicked++;
-				alert('you have clicked ' + clicked + ' messages so far');
-			}
-		</script>
+		<script src="./javascript/jquery-3.5.0.min.js"></script>
+		<script src="./javascript/script.js"></script>
 	</head>
 	<body>
-        <div id="container">
-			<div id="top">
+        <div class="experiment-container">
+			<div class="top">
 				<i class="material-icons md-48">account_circle</i>
-				<p id="sender">Description of the sender will appear here.</p>
+				<p id="sender">A description of the sender will appear here.</p>
 			</div>
-			<div id="middle">
-				<div id="message" onclick="click()">
-					<p><span id="content">Clickable messages will appear here.</span></p>
+			<div class="middle">
+				<div id="content">
+					<p>Messages will appear here. You may click on them, or click "Next message" to continue.</p>
+					<p>Please click "Start experiment" to begin.</p>
 				</div>
-				<p id="messages"><span id="done">0</span>/30 messages done.</p>
+				<button id="button">Start experiment</button>
+				<p id="done"><span id="counter">0</span>/30 messages done.</p>
 			</div>
-			<div id="bottom">
-				<div id="messagebox"><h2>Type a message</h2></div>
+			<div class="bottom">
+				<div class="messagebox"><h2>Type a message</h2></div>
 			</div>
         </div>
 	</body>
