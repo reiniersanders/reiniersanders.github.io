@@ -19,6 +19,13 @@ p {
 	font-size: 16px;
 }
 
+p2 {
+	font-family: monospace;
+	font-size: 16px;
+	text-decoration: underline;
+	color: blue;
+}
+
 .button {
 	background-color: #1e9e3b;
 	border: none;
