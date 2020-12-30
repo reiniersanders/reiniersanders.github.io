@@ -109,7 +109,7 @@ p2 {
 	cursor: pointer;
 }
 
-#done {
+#countertext {
 	position: absolute;
 	bottom: 0;
 	right: 2vw;
