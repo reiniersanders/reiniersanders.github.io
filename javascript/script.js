@@ -40,6 +40,7 @@ window.onload = function () {
 	
 	// Format and send data to endpoint
 	function send_data() {
+		
 		// Format clicks
 		var clickString = "";
 		for(var i = 0; i < clickedArray.length; i++){
@@ -49,7 +50,7 @@ window.onload = function () {
 		// Format answers
 		var answerString = "";
 		for(var i = 0; i < answerArray.length; i++) {
-			answerString += i + ': ' + answerArray[i] + '<br>';
+			answerString += 'Question ' + (i+1) + ': ' + answerArray[i] + '<br>';
 		}
 		
 		Email.send({
