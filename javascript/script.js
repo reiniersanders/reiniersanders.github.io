@@ -10,6 +10,7 @@ window.onload = function () {
 	var start = true;
 	var end = false;
 	var sendData = false;
+	var dataSent = false;
 	var messagesDone = 0;
 	var messageIndex = 0;
 	var questionsDone = 0;
@@ -26,18 +27,42 @@ window.onload = function () {
 		messageArray[i] = "Message " + (i + 1).toString();
 	}
 	
-	for(var i = 0; i < 10; i++) {
-		questionArray[i] = "Question";
-	}
+	questionArray[0] = "<p>How old are you?</p><input id='question' type='number'/>";
+	questionArray[1] = "<p>How old are you?</p><input id='question' type='number'/>";
+	questionArray[2] = "<p>How old are you?</p><input id='question' type='number'/>";
+	questionArray[3] = "<p>How old are you?</p><input id='question' type='number'/>";
+	questionArray[4] = "<p>How old are you?</p><input id='question' type='number'/>";
+	questionArray[5] = "<p>How old are you?</p><input id='question' type='number'/>";
+	questionArray[6] = "<p>How old are you?</p><input id='question' type='number'/>";
+	questionArray[7] = "<p>How old are you?</p><input id='question' type='number'/>";
+	questionArray[8] = "<p>How old are you?</p><input id='question' type='number'/>";
+	questionArray[9] = "<p>How old are you?</p><input id='question' type='number'/>";
 	
-	// Send data to endpoint
+	// Format and send data to endpoint
 	function send_data() {
-		var data = new FormData();
-		data.append("data", "something_test");
-		var xhr = new XMLHttpRequest();
-		xhr.open('post', './php/receive.php', true);
-		xhr.send(data);
-		alert("Your data has been sent to the server. Thank you for participating. You can now close this website.");
+		// Format clicks
+		var clickString = "";
+		for(var i = 0; i < clickedArray.length; i++){
+			clickString += clickedArray[i] + ' ';
+		}
+		
+		// Format answers
+		var answerString = "";
+		for(var i = 0; i < answerArray.length; i++) {
+			answerString += i + ': ' + answerArray[i] + '<br>';
+		}
+		
+		Email.send({
+			Host: "smtp.gmail.com",
+			Username: 'sanders.reinier@gmail.com',
+			Password: "mbobneybklktavoe",
+			To: 'sanders.reinier@gmail.com',
+			From: 'sanders.reinier@gmail.com',
+			Subject: "THESIS",
+			Body: "Clicked messages:<br>" + clickString + "<br><br>Answers:<br>" + answerString
+		}).then(alert('Data sent succesfully. You can now close this website.'));
+		
+		dataSent = true; // prevent data from being sent multiple times
 	}
 	
 	// Survey
@@ -75,7 +100,7 @@ window.onload = function () {
 		}
 	}
 
-	// Registers click on a message and stores the index of that message in an array
+	// Registers click on a message and stores the name of that message in an array
 	content.onclick = function () {
 		if(!start) {   // first message can't be clicked
 			if(!end) { // last message and survey questions can't be clicked
@@ -85,17 +110,27 @@ window.onload = function () {
 		}
 	}
 	
-	// Next message button
+	var first = true;
+	
+	// Button
 	button.onclick = function() {
-		if(start) { 							   // load first message
+		if(start) { 							// load first message
 			next_message();
 			start = false;
 			button.innerText = 'Next message';
-		} else if(sendData) {
-			send_data();
-		} else if(end) {
-			survey();
-		} else { 								   // load next message
+		} else if(sendData) {					// send data
+			if(!dataSent) {
+				send_data();
+			}
+		} else if(end) {						// save answer and load next question
+			if(first) {
+				survey();
+				first = false;
+			} else {
+				answerArray[answerArray.length] = document.getElementById('question').value;
+				survey();
+			}
+		} else { 								// load next message
 			next_message();
 		}
 	}
