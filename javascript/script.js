@@ -11,8 +11,10 @@ window.onload = function () {
 	var end = false;
 	var sendData = false;
 	var dataSent = false;
+	var totalMessages = 30;
 	var messagesDone = 0;
 	var messageIndex = 0;
+	var totalQuestions = 10;
 	var questionsDone = 0;
 	var questionsIndex = 0;
 	var messageArray = new Array();
@@ -22,7 +24,7 @@ window.onload = function () {
 	var answerArray = new Array();
 	
 	// Dataset
-	for(var i = 0; i < 30; i++) {
+	for(var i = 0; i < totalMessages; i++) {
 		senderArray[i] = "Sender " + (i + 1).toString();
 		messageArray[i] = "Message " + (i + 1).toString();
 	}
@@ -70,10 +72,10 @@ window.onload = function () {
 	function survey() {
 		sender.innerHTML = "Question " + (questionsIndex + 1).toString();
 		counter.innerHTML = questionsDone;
-		done.innerHTML = "/10 questions done.";
+		done.innerHTML = "/" + totalQuestions + " questions done.";
 		button.innerText = "Next question";
 		message.innerHTML = questionArray[questionsIndex];
-		if(questionsDone == 10) {
+		if(questionsDone == totalQuestions) {
 			sender.innerHTML = "Done!";
 			message.innerHTML = "This concludes the survey. Click 'Send data' to end the experiment.";
 			button.innerText = 'Send data';
@@ -93,7 +95,7 @@ window.onload = function () {
 		sender.innerHTML = senderArray[messageIndex];
 		message.innerHTML = messageArray[messageIndex];
 		messageIndex++;
-		if(messagesDone == 30) {
+		if(messagesDone == totalMessages) {
 			sender.innerHTML = "Done!";
 			message.innerHTML = "This concludes the experiment. Click 'Go to survey' to continue.";
 			end = true;
