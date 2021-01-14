@@ -1,40 +1,47 @@
 body {
-  margin: 0%;
+	margin: 0%;
 }
 
 h1 {
-  font-family: monospace;
-  font-size: 64px;
-  text-align: center;
-}
-
-p {
-  font-family: monospace;
-  font-size: 16px;
+	font-family: monospace;
+	font-size: 64px;
+	text-align: center;
 }
 
 h2 {
-  font-family: monospace;
-  font-size: 12px;
-  color: #777777;
+	font-family: monospace;
+	font-size: 12px;
+	color: #777777;
+}
+
+p {
+	font-family: monospace;
+	font-size: 16px;
+}
+
+p2 {
+	font-family: monospace;
+	font-size: 16px;
+	text-decoration: underline;
+	color: blue;
 }
 
 .button {
-  background-color: #1e9e3b;
-  border: none;
-  color: white;
-  padding: 2vh 4vh;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: monospace;
-  font-size: 16px;
-  margin: auto;
-  cursor: pointer;
+	background-color: #1e9e3b;
+	border: none;
+	color: white;
+	padding: 2vh 4vh;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 16px;
+	margin: auto;
+	cursor: pointer;
 }
 
 .button:hover {
-  background-color: #115c22;
+	background-color: #187d2f;
 }
 
 .grid-container-2 {
@@ -57,52 +64,88 @@ h2 {
 	padding-right: 2vw;
 }
 
-#left {
-  float: left;
-  width: 33%;
-  height: 100vh;
+.experiment-container {
+	display: grid;
+	grid-template-columns: 100vw;
+	grid-template-rows: 10vh 80vh 10vh;
+	gap: 0px 0px;
+	grid-template-areas:
+		"top"
+		"middle"
+		"bottom";
 }
 
-#left-top {
-  background-color: #dddddd;
-  height: 10vh;
+.top {
+	grid-area: top;
+	background-color: #dddddd;
+	display: flex;
+	align-items: center;
 }
 
-#left-bottom {
-  background-color: #eeeeee;
-  height: 90vh;
+.middle {
+	grid-area: middle;
+	padding: 1%;
+	position: relative;
+	background-image: url("../images/experiment-background.jpg");
 }
 
-#right {
-  overflow: hidden;
-  width: auto;
-  height: 100vh;
+.bottom {
+	grid-area: bottom;
+	background-color: #dddddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-#right-top {
-  background-color: #dddddd;
-  border-left-style: solid;
-  border-left-width: 0.25vh;
-  border-left-color: #cccccc;
-  height: 10vh;
+.messagebox {
+	background-color: white;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	padding-left: 2vw;
+	padding-right: 70vw;
 }
 
-#chat {
-  background-image: url("../images/experiment-background.jpg");
-  height: 80vh;
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 {
+	font-size: 48px;
+	margin-left: 1vw;
+	margin-right: 1vw;
 }
 
-#right-bottom {
-  background-color: #dddddd;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#content {
+	background-color: white;
+	padding: 1%;
+	display: inline-block;
+	max-width: 40%;
+	cursor: pointer;
 }
 
-#messagebox {
-  background-color: white;
-  height: 5vh;
-  padding-left: 1%;
-  padding-right: 70%;
+#countertext {
+	position: absolute;
+	bottom: 0;
+	right: 2vw;
+}
+
+#expbutton {
+	background-color: #1e9e3b;
+	border: none;
+	color: white;
+	padding: 2vh 4vh;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 16px;
+	margin: 1%;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#expbutton:hover {
+	background-color: #187d2f;
 }
