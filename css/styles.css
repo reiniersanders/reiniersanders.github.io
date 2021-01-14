@@ -41,7 +41,7 @@ p2 {
 }
 
 .button:hover {
-	background-color: #115c22;
+	background-color: #187d2f;
 }
 
 .front-container {
@@ -132,6 +132,6 @@ p2 {
 	left: 0;
 }
 
-#button:hover {
-	background-color: #115c22;
+#expbutton:hover {
+	background-color: #187d2f;
 }
