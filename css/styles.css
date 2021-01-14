@@ -44,10 +44,24 @@ p2 {
 	background-color: #187d2f;
 }
 
-.front-container {
-	padding-left: 5vw;
-	padding-right: 5vw;
-	padding-bottom: 5vh;
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 90% 10%;
+  gap: 0px 0px;
+  grid-template-areas:
+    "."
+    ".";
+}
+
+#front {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#footer {
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 
 .experiment-container {
