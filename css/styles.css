@@ -44,7 +44,7 @@ p2 {
 	background-color: #187d2f;
 }
 
-.grid-container-2 {
+.frontend-container {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 90% 10%;
