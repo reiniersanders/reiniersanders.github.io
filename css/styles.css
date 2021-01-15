@@ -103,7 +103,10 @@ p2 {
 
 #content {
 	background-color: white;
-	padding: 1%;
+	padding-top: 1vh;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
 	display: inline-block;
 	max-width: 40%;
 	cursor: pointer;
