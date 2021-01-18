@@ -23,10 +23,10 @@ window.onload = function () {
 	var questionArray = new Array();
 	var answerArray = new Array();
 	
-	//a 10x familielid, afbeelding hoort bij link, 'normale link'
-	//b 10x goede vriend, afbeelding hoort niet bij de link, 'normale link'
-	//c 5x  familielid, afbeelding hoort bij link, link gebruikt http://
-	//d 5x  goede vriend, afbeelding hoort bij link, link bevat veel karakters
+	//a 10x een goede bekende, afbeelding hoort bij link, 'normale link'
+	//b 10x een goede bekende, afbeelding hoort niet bij de link, 'normale link'
+	//c 5x  een goede bekende, afbeelding hoort bij link, link gebruikt http://
+	//d 5x  een goede bekende, afbeelding hoort bij link, link bevat veel karakters
 	//e 5x  kennis, afbeelding hoort bij link, 'normale link'
 	//f 5x  onbekend, afbeelding hoort bij link, 'normale link'
 	
@@ -35,65 +35,65 @@ window.onload = function () {
 	// a e b c d a b a a b f  c  d  f  e  b  a  c  f  a  b  d  f  c  e  e  b  a  c  b  d  d  a  b  a  b  b  a  f  e
 	
 	// Messages
-	senderArray[0] = "Afzender: een familielid";
-	messageArray[0] = "<img src='./images/0.jpg' width='100%'><br><p2>https://www.online-lessen.com</p2><hr><p>Hoi, is dit niet iets voor jou?</p>";
+	senderArray[0] = "Afzender: een goede bekende";
+	messageArray[0] = "<img src='./images/0.jpg' style='max-width:100%'><br><p2>https://www.online-lessen.com</p2><hr><p>Hoi, is dit niet iets voor jou?</p>";
 	
 	senderArray[1] = "Afzender: een kennis";
-	messageArray[1] = "<img src='./images/1.jpg' width='100%'><br><p2>https://www.honden.com</p2><hr><p>Iets voor de echte hondenliefhebber!</p>";
+	messageArray[1] = "<img src='./images/1.jpg' style='max-width:100%'><br><p2>https://www.honden.com</p2><hr><p>Iets voor de echte hondenliefhebber!</p>";
 	
-	senderArray[2] = "Afzender: een goede vriend";
-	messageArray[2] = "<img src='./images/2.jpg' width='100%'><br><p2>https://www.computeronderdelen.com</p2><hr><p>Ik heb hier laatst een nieuwe PC gekocht, goeie service.</p>";
+	senderArray[2] = "Afzender: een goede bekende";
+	messageArray[2] = "<img src='./images/2.jpg' style='max-width:100%'><br><p2>https://www.computeronderdelen.com</p2><hr><p>Ik heb hier laatst een nieuwe PC gekocht, goeie service.</p>";
 	
-	senderArray[3] = "Afzender: een familielid";
-	messageArray[3] = "<img src='./images/3.jpg' width='100%'><br><p2>http://www.vliegtickets.com</p2><hr><p>Hier vond ik de goedkoopste.</p>";
+	senderArray[3] = "Afzender: een goede bekende";
+	messageArray[3] = "<img src='./images/3.jpg' style='max-width:100%'><br><p2>http://www.vliegtickets.com</p2><hr><p>Hier vond ik de goedkoopste.</p>";
 
-	senderArray[4] = "Afzender: een goede vriend";
-	messageArray[4] = "<img src='./images/4.jpg' width='100%'><br><p2>https://www.provider.com/?ref=82hd_d2d2h&utm_source=social&id=If2h8WHI82oQ</p2><hr><p>Ik ben overgestapt, veel betere prijzen!</p>";
+	senderArray[4] = "Afzender: een goede bekende";
+	messageArray[4] = "<img src='./images/4.jpg' style='max-width:100%'><br><p2>https://www.provider.com/?ref=82hd_d2d2h&utm_source=social&id=If2h8WHI82oQ</p2><hr><p>Ik ben overgestapt, veel betere prijzen!</p>";
 	
-	senderArray[5] = "Afzender: een familielid";
-	messageArray[5] = "<img src='./images/5.jpg' width='100%'><br><p2>https://www.pretpark.com</p2><hr><p>Laten we hier heen gaan!</p>";
+	senderArray[5] = "Afzender: een goede bekende";
+	messageArray[5] = "<img src='./images/5.jpg' style='max-width:100%'><br><p2>https://www.pretpark.com</p2><hr><p>Laten we hier heen gaan!</p>";
 	
-	senderArray[6] = "Afzender: een goede vriend";
-	messageArray[6] = "<img src='./images/6.jpg' width='100%'><br><p2>https://www.kledingwinkel.com</p2><hr><p>Binnenkort maar even shoppen :)</p>";
+	senderArray[6] = "Afzender: een goede bekende";
+	messageArray[6] = "<img src='./images/6.jpg' style='max-width:100%'><br><p2>https://www.kledingwinkel.com</p2><hr><p>Binnenkort maar even shoppen :)</p>";
 	
-	senderArray[7] = "Afzender: een familielid";
-	messageArray[7] = "<img src='./images/7.jpg' width='100%'><br><p2>https://www.boodschappen.com</p2><hr><p>Er is korting deze week</p>";
+	senderArray[7] = "Afzender: een goede bekende";
+	messageArray[7] = "<img src='./images/7.jpg' style='max-width:100%'><br><p2>https://www.boodschappen.com</p2><hr><p>Er is korting deze week</p>";
 	
-	senderArray[8] = "Afzender: een familielid";
-	messageArray[8] = "<img src='./images/8.jpg' width='100%'><br><p2>https://www.belasting.com</p2><hr><p>Vergeet niet je aangifte te doen!</p>";
+	senderArray[8] = "Afzender: een goede bekende";
+	messageArray[8] = "<img src='./images/8.jpg' style='max-width:100%'><br><p2>https://www.belasting.com</p2><hr><p>Vergeet niet je aangifte te doen!</p>";
 	
-	senderArray[9] = "Afzender: een goede vriend";
-	messageArray[9] = "<img src='./images/9.jpg' width='100%'><br><p2>https://www.recepten.com</p2><hr><p>Hier staan lekkere recepten zeg...</p>";
+	senderArray[9] = "Afzender: een goede bekende";
+	messageArray[9] = "<img src='./images/9.jpg' style='max-width:100%'><br><p2>https://www.recepten.com</p2><hr><p>Hier staan lekkere recepten zeg...</p>";
 	
 	senderArray[10] = "Afzender: onbekend";
-	messageArray[10] = "<img src='./images/10.jpg' width='100%'><br><p2>https://www.cv-ketel.com</p2><hr><p>Een nieuwe cv ketel is goed voor het milieu</p>";
+	messageArray[10] = "<img src='./images/10.jpg' style='max-width:100%'><br><p2>https://www.cv-ketel.com</p2><hr><p>Een nieuwe cv ketel is goed voor het milieu</p>";
 	
-	senderArray[11] = "Afzender: een familielid";
-	messageArray[11] = "<img src='./images/11.jpg' width='100%'><br><p2>http://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[11] = "Afzender: een goede bekende";
+	messageArray[11] = "<img src='./images/11.jpg' style='max-width:100%'><br><p2>http://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
 	
-	senderArray[12] = "Afzender: een goede vriend";
-	messageArray[12] = "<img src='./images/12.png' width='100%'><br><p2>https://www.sociaalplatform.com/?origin=8209JDDH8289&appid=4278ShuIU&ln=EN</p2><hr><p>Hey wil je mij volgen?</p>";
+	senderArray[12] = "Afzender: een goede bekende";
+	messageArray[12] = "<img src='./images/12.png' style='max-width:100%'><br><p2>https://www.sociaalplatform.com/?origin=8209JDDH8289&appid=4278ShuIU&ln=EN</p2><hr><p>Hey wil je mij volgen?</p>";
 
 	senderArray[13] = "Afzender: onbekend";
-	messageArray[13] = "<img src='./images/13.jpeg' width='100%'><br><p2>https://www.dierentuin.com</p2><hr><p>Er is een nieuwe panda geboren! :D</p>";
+	messageArray[13] = "<img src='./images/13.jpeg' style='max-width:100%'><br><p2>https://www.dierentuin.com</p2><hr><p>Er is een nieuwe panda geboren! :D</p>";
 	
-	senderArray[14] = "Afzender: ";
-	messageArray[14] = "<img src='./images/14.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[14] = "Afzender: een kennis";
+	messageArray[14] = "<img src='./images/14.jpg' style='max-width:100%'><br><p2>https://www.nieuws.com</p2><hr><p>Wow, kijk dit!</p>";
 	
-	senderArray[15] = "Afzender: een familielid";
-	messageArray[15] = "<img src='./images/15.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[15] = "Afzender: een goede bekende";
+	messageArray[15] = "<img src='./images/15.jpg' style='max-width:100%'><br><p2>https://www.filmshuren.com</p2><hr><p>Laatst deze gekeken, erg goed!</p>";
 	
-	senderArray[16] = "Afzender: een familielid";
-	messageArray[16] = "<img src='./images/16.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[16] = "Afzender: een goede bekende";
+	messageArray[16] = "<img src='./images/16.jpg' style='max-width:100%'><br><p2>https://www.meeting.com</p2><hr><p>Wil je morgen bellen?</p>";
 	
-	senderArray[17] = "Afzender: een familielid";
-	messageArray[17] = "<img src='./images/17.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[17] = "Afzender: een goede bekende";
+	messageArray[17] = "<img src='./images/17.jpg' style='max-width:100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
 	
-	senderArray[18] = "Afzender: een familielid";
-	messageArray[18] = "<img src='./images/18.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[18] = "Afzender: een goede bekende";
+	messageArray[18] = "<img src='./images/18.jpg' style='max-width:100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
 	
-	senderArray[19] = "Afzender: een familielid";
-	messageArray[19] = "<img src='./images/19.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[19] = "Afzender: een goede bekende";
+	messageArray[19] = "<img src='./images/19.jpg' style='max-width:100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
 	
 	senderArray[20] = "Afzender: een familielid";
 	messageArray[20] = "<img src='./images/20.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
