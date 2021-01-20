@@ -236,25 +236,27 @@ window.onload = function () {
 		}
 	}
 
-	// Changes color of message when hovering mouse over
+	// Changes color of message and cursor when hovering mouse over
 	content.onmouseover = function() {
-		if(!start) { // only change color when messages are actually clickable
-			if(!end)
-				this.style.backgroundColor = "lightgrey";
+		if(!start && !end) { // only change color when messages are actually clickable
+			this.style.backgroundColor = "lightgrey";
+			this.style.cursor = "pointer";
 		}
 	}
+
+	// Revert color and cursor on mouse out
 	content.onmouseout = function() {
 		this.style.backgroundColor = "white";
+		this.style.cursor = "default";
 	}
 
 	// Registers click on a message and stores the name of that message in an array
 	content.onclick = function () {
-		if(!start) {   // first message can't be clicked
-			if(!end) { // last message and survey questions can't be clicked
-				clickedArray[clickedArray.length] = 'm' + messageIndex.toString();
-				this.style.backgroundColor = "white";
-				next_message();
-			}
+		if(!start && !end) {   // first, last and survey messages can't be clicked
+			clickedArray[clickedArray.length] = 'm' + messageIndex.toString();
+			this.style.backgroundColor = "white"; // set content background color back to white
+			this.style.cursor = "default"; // reset cursor
+			next_message();
 		}
 	}
 	
