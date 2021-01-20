@@ -122,8 +122,8 @@ p2 {
 	padding-right: 1vw;
 	padding-bottom: 1vh;
 	display: inline-block;
-	max-width: 40%;
-	cursor: pointer;
+	max-width: 36%;
+	border-radius: 0px 25px 25px 25px;
 }
 
 #countertext {
