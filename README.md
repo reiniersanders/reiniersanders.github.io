@@ -1,3 +1,3 @@
 # reiniersanders.github.io
 
-This is my personal repository. Currently I am using it to host the experiment for my Computing Science Bachelor Thesis.
+This is my personal repository. It currently hosts the experiment for my Computing Science Bachelor Thesis.
