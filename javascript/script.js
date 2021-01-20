@@ -87,73 +87,73 @@ window.onload = function () {
 	messageArray[16] = "<img src='./images/16.jpg' style='max-width:100%'><br><p2>https://www.meeting.com</p2><hr><p>Wil je morgen bellen?</p>";
 	
 	senderArray[17] = "Afzender: een goede bekende";
-	messageArray[17] = "<img src='./images/17.jpg' style='max-width:100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	messageArray[17] = "<img src='./images/17.jpg' style='max-width:100%'><br><p2>http://www.fotografie.com</p2><hr><p>Misschien een workshop voor jou?</p>";
 	
-	senderArray[18] = "Afzender: een goede bekende";
-	messageArray[18] = "<img src='./images/18.jpg' style='max-width:100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[18] = "Afzender: onbekend";
+	messageArray[18] = "<img src='./images/18.jpg' style='max-width:100%'><br><p2>https://www.etenbestellen.com</p2><hr><p>Eet gezellig mee.</p>";
 	
 	senderArray[19] = "Afzender: een goede bekende";
-	messageArray[19] = "<img src='./images/19.jpg' style='max-width:100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	messageArray[19] = "<img src='./images/19.jpg' style='max-width:100%'><br><p2>https://www.grappen.com</p2><hr><p>Hahaha ik ga stuk!</p>";
 	
-	senderArray[20] = "Afzender: een familielid";
-	messageArray[20] = "<img src='./images/20.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[20] = "Afzender: een goede bekende";
+	messageArray[20] = "<img src='./images/20.jpg' style='max-width:100%'><br><p2>https://www.koffie.com</p2><hr><p>Hier hebben ze de lekkerste bonen.</p>";
 	
-	senderArray[21] = "Afzender: een familielid";
-	messageArray[21] = "<img src='./images/21.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[21] = "Afzender: een goede bekende";
+	messageArray[21] = "<img src='./images/21.jpg' style='max-width:100%'><br><p2>https://www.videos.com/?v=a2IWh28987H&lang=NL&ref=XNpc972HC&id=h22DHUI8yNc</p2><hr><p>Kijk nou eens wat ik hier zag...</p>";
 	
-	senderArray[22] = "Afzender: een familielid";
-	messageArray[22] = "<img src='./images/22.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[22] = "Afzender: onbekend";
+	messageArray[22] = "<img src='./images/22.jpg' style='max-width:100%'><br><p2>https://www.interieur.com</p2><hr><p>Wat een design!</p>";
 	
-	senderArray[23] = "Afzender: een familielid";
-	messageArray[23] = "<img src='./images/23.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[23] = "Afzender: een goede bekende";
+	messageArray[23] = "<img src='./images/23.jpg' style='max-width:100%'><br><p2>http://www.strand.com</p2><hr><p>Echt behoefte aan vakantie...</p>";
 
-	senderArray[24] = "Afzender: een familielid";
-	messageArray[24] = "<img src='./images/24.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[24] = "Afzender: een kennis";
+	messageArray[24] = "<img src='./images/24.jpg' style='max-width:100%'><br><p2>https://www.sporten.com</p2><hr><p>Ik voel me zo fit!</p>";
 	
-	senderArray[25] = "Afzender: een familielid";
-	messageArray[25] = "<img src='./images/25.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[25] = "Afzender: een kennis";
+	messageArray[25] = "<img src='./images/25.jpg' style='max-width:100%'><br><p2>https://www.politiek.com</p2><hr><p>Wat vind jij hier nou van?</p>";
 	
-	senderArray[26] = "Afzender: een familielid";
-	messageArray[26] = "<img src='./images/26.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[26] = "Afzender: een goede bekende";
+	messageArray[26] = "<img src='./images/26.jpg' style='max-width:100%'><br><p2>https://www.cadeaus.com</p2><hr><p>De leukste cadeau's hebben ze hier.</p>";
 	
-	senderArray[27] = "Afzender: een familielid";
-	messageArray[27] = "<img src='./images/27.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[27] = "Afzender: een goede bekende";
+	messageArray[27] = "<img src='./images/27.jpg' style='max-width:100%'><br><p2>https://www.tuinieren.com</p2><hr><p>Zo onderhoud ik mijn achtertuin.</p>";
 	
-	senderArray[28] = "Afzender: een familielid";
-	messageArray[28] = "<img src='./images/28.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[28] = "Afzender: een goede bekende";
+	messageArray[28] = "<img src='./images/28.jpg' style='max-width:100%'><br><p2>http://www.vogels.com</p2><hr><p>Wat een veren zeg!</p>";
 	
-	senderArray[29] = "Afzender: een familielid";
-	messageArray[29] = "<img src='./images/29.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[29] = "Afzender: een goede bekende";
+	messageArray[29] = "<img src='./images/29.jpg' style='max-width:100%'><br><p2>https://www.architectuur.com</p2><hr><p>Een goede bron van inspiratie.</p>";
 	
-	senderArray[30] = "Afzender: een familielid";
-	messageArray[30] = "<img src='./images/30.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[30] = "Afzender: een goede bekende";
+	messageArray[30] = "<img src='./images/30.jpg' style='max-width:100%'><br><p2>https://www.technologie.com/?cookie=Ckjh2789AhX&ln=NL&soc=FB&i=DHc2Z&hx=w2</p2><hr><p>Hier hebben ze de nieuwste gadgets.</p>";
 	
-	senderArray[31] = "Afzender: een familielid";
-	messageArray[31] = "<img src='./images/31.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[31] = "Afzender: een goede bekende";
+	messageArray[31] = "<img src='./images/31.jpg' style='max-width:100%'><br><p2>https://www.vacatures.com/?src=inet&q=HwuCQ5xpZ2&br=g_chrome&app_net=https</p2><hr><p>Hier heb ik een nieuwe baan gevonden.</p>";
 	
-	senderArray[32] = "Afzender: een familielid";
-	messageArray[32] = "<img src='./images/32.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[32] = "Afzender: een goede bekende";
+	messageArray[32] = "<img src='./images/32.jpg' style='max-width:100%'><br><p2>https://www.evenementen.com</p2><hr><p>Hopelijk kunnen we binnenkort hier heen!</p>";
 	
-	senderArray[33] = "Afzender: een familielid";
-	messageArray[33] = "<img src='./images/33.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[33] = "Afzender: een goede bekende";
+	messageArray[33] = "<img src='./images/33.jpg' style='max-width:100%'><br><p2>https://www.skireis.com</p2><hr><p>Ik kijk hier zo naar uit!</p>";
 	
-	senderArray[34] = "Afzender: een familielid";
-	messageArray[34] = "<img src='./images/34.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[34] = "Afzender: een goede bekende";
+	messageArray[34] = "<img src='./images/34.jpeg' style='max-width:100%'><br><p2>https://www.bosbeheer.com</p2><hr><p>Ik heb gedoneerd.</p>";
 	
-	senderArray[35] = "Afzender: een familielid";
-	messageArray[35] = "<img src='./images/35.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[35] = "Afzender: een goede bekende";
+	messageArray[35] = "<img src='./images/35.jpg' style='max-width:100%'><br><p2>https://www.bibliotheek.com</p2><hr><p>Ze hebben daar alle boeken die je maar wilt.</p>";
 	
-	senderArray[36] = "Afzender: een familielid";
-	messageArray[36] = "<img src='./images/36.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[36] = "Afzender: een goede bekende";
+	messageArray[36] = "<img src='./images/36.jpg' style='max-width:100%'><br><p2>https://www.camping.com</p2><hr><p>De beste outdoor spullen!</p>";
 	
-	senderArray[37] = "Afzender: een familielid";
-	messageArray[37] = "<img src='./images/37.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[37] = "Afzender: een goede bekende";
+	messageArray[37] = "<img src='./images/37.jpg' style='max-width:100%'><br><p2>https://www.kunst.com</p2><hr><p>Erg indrukwekkend.</p>";
 	
-	senderArray[38] = "Afzender: een familielid";
-	messageArray[38] = "<img src='./images/38.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[38] = "Afzender: onbekend";
+	messageArray[38] = "<img src='./images/38.jpg' style='max-width:100%'><br><p2>https://www.televisie.com</p2><hr><p>De allerscherpste.</p>";
 	
-	senderArray[39] = "Afzender: een familielid";
-	messageArray[39] = "<img src='./images/39.jpg' width='100%'><br><p2>https://www.autos.com</p2><hr><p>Welke zal ik kopen?</p>";
+	senderArray[39] = "Afzender: een kennis";
+	messageArray[39] = "<img src='./images/39.jpg' style='max-width:100%'><br><p2>https://www.bank.com</p2><hr><p>Ik doe alles online tegenwoordig.</p>";
 	
 	// Survey questions
 	questionArray[0] = "<p>Hoe oud bent u?</p><input id='question' type='number'/>";
@@ -162,11 +162,11 @@ window.onload = function () {
 	
 	questionArray[2] = "<p>Ongeveer hoe veel uur per dag gebruikt u instant messaging apps (zoals WhatsApp) gewoonlijk?</p><input id='question' type='number'/>";
 	
-	questionArray[3] = "<p>Bij het maken van de keuze om op een bericht te klikken of niet, wat is volgens u de belangrijkste factor?</p><p>Kies uit: de afzender, het plaatje, de link zelf.</p><input id='question' type='text'/>";
+	questionArray[3] = "<p>Bij het maken van de keuze om op een bericht te klikken of niet, wat is volgens u de belangrijkste factor?</p><input id='question' type='text'/>";
 	
 	questionArray[4] = "<p>Bent u wel eens het slachtoffer geweest van een phishing aanval?</p><input id='question' type='text'/>";
 	
-	questionArray[5] = "<p>Op een schaal van 1 tot 5, waarbij 1 'heel slecht' en 5 'heel goed' voorstelt, hoe goed bent u in het herkennen van phishing berichten?</p><input id='question' type='number'/>";
+	questionArray[5] = "<p>Op een schaal van 1 tot en met 5, waarbij 1 'heel slecht' en 5 'heel goed' is, hoe goed schat u te zijn in het herkennen van phishing berichten?</p><input id='question' type='number'/>";
 	
 	// Format and send data to endpoint
 	function send_data() {
@@ -183,13 +183,16 @@ window.onload = function () {
 			answerString += 'Vraag ' + (i+1) + ': ' + answerArray[i] + '<br>';
 		}
 		
+		// Unique ID
+		var id = Math.random().toString(36).substr(2, 5);
+		
 		Email.send({
 			Host: "smtp.gmail.com",
 			Username: 'sanders.reinier@gmail.com',
 			Password: "mbobneybklktavoe",
 			To: 'sanders.reinier@gmail.com',
 			From: 'sanders.reinier@gmail.com',
-			Subject: "THESIS",
+			Subject: "[THESIS] " + id,
 			Body: "Clicked messages:<br>" + clickString + "<br><br>Answers:<br>" + answerString
 		}).then(alert('Data is succesvol verstuurd. Bedankt voor uw deelname. U kunt de website nu afsluiten.'));
 		
@@ -203,6 +206,8 @@ window.onload = function () {
 		done.innerHTML = "/" + totalQuestions + " vragen gedaan.";
 		button.innerText = "Volgende vraag";
 		message.innerHTML = questionArray[questionsIndex];
+		if(questionsDone == totalQuestions - 1)
+			button.innerText = "Ga door";
 		if(questionsDone == totalQuestions) {
 			sender.innerHTML = "Klaar!";
 			message.innerHTML = "De vragenlijst is nu klaar. Druk op 'Verstuur data' om het experiment af te ronden.";
@@ -223,13 +228,6 @@ window.onload = function () {
 		sender.innerHTML = senderArray[messageIndex];
 		message.innerHTML = messageArray[messageIndex];
 		messageIndex++;
-		content.onmouseover = function() {
-			if(!end)
-				this.style.backgroundColor = "lightgrey";
-		}
-		content.onmouseout = function() {
-			this.style.backgroundColor = "white";
-		}
 		if(messagesDone == totalMessages) {
 			sender.innerHTML = "Klaar!";
 			message.innerHTML = "Het eerste deel is klaar. Klik op 'Ga naar vragenlijst' om verder te gaan.";
@@ -238,11 +236,23 @@ window.onload = function () {
 		}
 	}
 
+	// Changes color of message when hovering mouse over
+	content.onmouseover = function() {
+		if(!start) { // only change color when messages are actually clickable
+			if(!end)
+				this.style.backgroundColor = "lightgrey";
+		}
+	}
+	content.onmouseout = function() {
+		this.style.backgroundColor = "white";
+	}
+
 	// Registers click on a message and stores the name of that message in an array
 	content.onclick = function () {
 		if(!start) {   // first message can't be clicked
 			if(!end) { // last message and survey questions can't be clicked
 				clickedArray[clickedArray.length] = 'm' + messageIndex.toString();
+				this.style.backgroundColor = "white";
 				next_message();
 			}
 		}
