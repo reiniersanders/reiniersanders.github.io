@@ -55,13 +55,14 @@ p2 {
 }
 
 #front {
-  padding-left: 2vw;
-  padding-right: 2vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 
 #footer {
 	padding-left: 2vw;
 	padding-right: 2vw;
+	padding-bottom: 2vh;
 }
 
 .experiment-container {

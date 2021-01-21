@@ -154,18 +154,18 @@ window.onload = function () {
 	
 	senderArray[39] = "Afzender: een kennis";
 	messageArray[39] = "<img src='./images/39.jpg' style='max-width:100%'><br><p2>https://www.bank.com</p2><hr><p>Ik doe alles online tegenwoordig.</p>";
-	
+
 	// Survey questions
 	questionArray[0] = "<p>Hoe oud bent u?</p><input id='question' type='number'/>";
-	
+
 	questionArray[1] = "<p>Ongeveer hoe veel uur per dag gebruikt u het internet gewoonlijk?</p><input id='question' type='number'/>";
-	
+
 	questionArray[2] = "<p>Ongeveer hoe veel uur per dag gebruikt u instant messaging apps (zoals WhatsApp) gewoonlijk?</p><input id='question' type='number'/>";
-	
+
 	questionArray[3] = "<p>Bij het maken van de keuze om op een bericht te klikken of niet, wat is volgens u de belangrijkste factor?</p><input id='question' type='text'/>";
-	
+
 	questionArray[4] = "<p>Bent u wel eens het slachtoffer geweest van een phishing aanval?</p><input id='question' type='text'/>";
-	
+
 	questionArray[5] = "<p>Op een schaal van 1 tot en met 5, waarbij 1 'heel slecht' en 5 'heel goed' is, hoe goed schat u te zijn in het herkennen van phishing berichten?</p><input id='question' type='number'/>";
 	
 	// Format and send data to endpoint
