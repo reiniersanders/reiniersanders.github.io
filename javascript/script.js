@@ -270,7 +270,7 @@ window.onload = function () {
 			button.innerText = 'Negeer bericht';
 		} else if(sendData) {					// send data
 			if(!dataSent) {
-				send_data();
+				//send_data();
 			}
 		} else if(end) {						// save answer and load next question
 			if(first) {
