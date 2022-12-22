@@ -188,10 +188,10 @@ window.onload = function () {
 		
 		Email.send({
 			Host: "smtp.gmail.com",
-			Username: 'sanders.reinier@gmail.com',
-			Password: "mbobneybklktavoe",
-			To: 'sanders.reinier@gmail.com',
-			From: 'sanders.reinier@gmail.com',
+			Username: '',
+			Password: "",
+			To: '',
+			From: '',
 			Subject: "[THESIS] " + id,
 			Body: "Clicked messages:<br>" + clickString + "<br><br>Answers:<br>" + answerString
 		}).then(alert('Data is succesvol verstuurd. Bedankt voor uw deelname. U kunt de website nu afsluiten.'));
