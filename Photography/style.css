@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .cell {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s;
+  }
