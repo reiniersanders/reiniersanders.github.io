@@ -34,7 +34,7 @@ function showImages(images) {
 
 function loadImages() {
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', 'img/', true);
+  xhr.open('GET', 'photography/', true);
   xhr.responseType = 'document';
   xhr.onload = function() {
     if (xhr.status === 200) {
@@ -43,7 +43,7 @@ function loadImages() {
       for (let i = 0; i < files.length; i++) {
         const file = files[i].href;
         if (file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png') || file.endsWith('.gif')) {
-          images.push('img/' + file);
+          images.push('photography/' + file);
         }
       }
       showImages(images);
