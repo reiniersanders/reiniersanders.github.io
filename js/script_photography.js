@@ -42,7 +42,7 @@ function loadImages() {
       const images = [];
       for (let i = 0; i < files.length; i++) {
         const file = files[i].href;
-        if (file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png') || file.endsWith('.gif')) {
+        if (file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.JPG') || file.endsWith('.JPEG')) {
           images.push('photography/' + file);
         }
       }
